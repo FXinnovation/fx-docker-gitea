@@ -9,7 +9,7 @@ ADD ./resources /resources
 RUN /resources/build && rm -rf /resources
 
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
-      "org.label-schema.name"="yarn" \
+      "org.label-schema.name"="gitea" \
       "org.label-schema.base-image.name"="docker.io/gitea/gitea" \
       "org.label-schema.base-image.version"="1.7.6" \
       "org.label-schema.description"="Gitea in a container" \
