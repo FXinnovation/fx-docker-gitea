@@ -1,4 +1,4 @@
-FROM gitea/gitea:1.9.1
+FROM gitea/gitea:1.10.0
 
 ARG BUILD_DATE
 ARG VCS_REF
@@ -11,7 +11,7 @@ RUN /resources/build && rm -rf /resources
 LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.name"="gitea" \
       "org.label-schema.base-image.name"="docker.io/gitea/gitea" \
-      "org.label-schema.base-image.version"="1.9.1" \
+      "org.label-schema.base-image.version"="1.10.0" \
       "org.label-schema.description"="Gitea in a container" \
       "org.label-schema.url"="https://gitea.io" \
       "org.label-schema.vcs-url"="https://scm.dazzlingwrench.fxinnovation.com/fxinnovation-public/docker-gitea" \
