@@ -1,5 +1,10 @@
 
-0.8.0 / 2020-02-26
+0.9.0 / 2020-04-23
+==================
+
+  * feat: Pin gitea to 1.11.4
+
+0.8.0 / 2020-02-11
 ==================
 
   * feat: Pin gitea to 1.11.1
@@ -38,6 +43,7 @@
 0.1.0 / 2019-04-16
 ==================
 
+  * Merge branch 'feature/initial_version' of fxinnovation-public/docker-gitea into master
   * Copy/pasta
   * Added scripts for hardening, normalizing image
   * Initial import
