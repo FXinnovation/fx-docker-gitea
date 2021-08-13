@@ -1,4 +1,4 @@
-FROM gitea/gitea:1.11.4
+FROM gitea/gitea:1.15.0-rc3
 
 ARG BUILD_DATE
 ARG VCS_REF
@@ -17,7 +17,7 @@ LABEL "maintainer"="cloudsquad@fxinnovation.com" \
       "org.label-schema.vcs-url"="https://scm.dazzlingwrench.fxinnovation.com/fxinnovation-public/docker-gitea" \
       "org.label-schema.vendor"="FXinnovation" \
       "org.label-schema.schema-version"="1.0.0-rc.1" \
-      "org.label-schema.applications.gitea.version"="1.11.4" \
+      "org.label-schema.applications.gitea.version"="1.15.0-rc3" \
       "org.label-schema.vcs-ref"=$VCS_REF \
       "org.label-schema.version"=$VERSION \
       "org.label-schema.build-date"=$BUILD_DATE \
